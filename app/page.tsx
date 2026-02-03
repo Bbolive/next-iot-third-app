@@ -1,7 +1,7 @@
 // napage snippet
 import Image from "next/image";
 import calculatorpicture from "../assets/images/calculatorpicture.png";
-import SauFooter from "@/componants/SauFooter";
+import SauFooter from "@/components/SauFooter";
 import Link from "next/link";
 
 export default function page() {
