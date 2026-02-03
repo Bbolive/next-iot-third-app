@@ -1,6 +1,6 @@
 import Link from "next/link";
  
-export function SauHeader() {
+export default function SauHeader() {
   return (
     <div className="bg-blue-600 text-center p-3">
          {/* ส่วนของลิงค์เปิดไปยังหน้าเพจต่างๆ */}

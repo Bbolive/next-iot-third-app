@@ -1,7 +1,7 @@
 "use client";
  
 import { useState } from "react";
-import { SauHeader } from "@/components/SauHeader";
+import  SauHeader  from "@/components/SauHeader";
 import Image from "next/image";
 import bmipicture from "@/assets/images/bmipicture.png";
 import  SauFooter  from "@/components/SauFooter";
@@ -26,9 +26,9 @@ export default function Page() {
     }
  
     // คำนวณ BMI
-    let weightValue = parseFloat(weight);
-    let heightValue = parseFloat(height) / 100; //แปลง cm. เป็น m.
-    let bmiValue = weightValue / (heightValue ** 2);
+    const weightValue = parseFloat(weight);
+    const heightValue = parseFloat(height) / 100; //แปลง cm. เป็น m.
+    const bmiValue = weightValue / (heightValue ** 2);
     setBmi(bmiValue.toFixed(2));
  
     //แปลผล BMI
@@ -122,7 +122,6 @@ export default function Page() {
             การแปลผล BMI : {bmiResult}
           </h2>
         </div>
- 
         {/* ส่วนของการแสดง Sau Footer */}
         <SauFooter />
       </div>
