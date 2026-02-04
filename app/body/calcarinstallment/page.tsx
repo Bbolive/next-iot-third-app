@@ -63,7 +63,7 @@ export default function Page() {
           โปรแกรมคำนวณค่างวดรถยนต์
         </h1>
 
-        {/* ส่วนของการป้อนราคารถ ดอกเบี้ยต่อปี */}
+        {/* ส่วนของการป้อนราคารถ ดอกเบี้ยต่อปี */}]
         <div className="w-3/5 mt-5">
           <div className="mb-4">
             <label htmlFor="carprice" className="block mb-1 font-medium">
